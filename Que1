@@ -1,0 +1,13 @@
+Differentiate between static and non-static variables?
+
+Static method uses complie time binding or early binding.
+A static method cannot be overridden being compile time binding. 
+A static method is a method that belongs to a class, but it does not belong to an instance of that class and this method can be called without the instance or object of that class.	
+In the static method, less memory is used for execution because memory allocation happens only once because the static keyword fixed a particular memory for that method in ram.
+The static method cannot be overridden because of early binding.
+
+Non-static method uses run time binding or dynamic binding. 
+A non-static method can be overridden being dynamic binding.
+Every method in java defaults to a non-static method without a static keyword preceding it. non-static methods can access any static method and static variable also, without using the object of the class.
+In the non-static method, much memory is used for execution because here memory allocation happens when the method is invoked and the memory is allocated every time when the method is called. 
+The non-static method can be overridden because of runtime binding.
